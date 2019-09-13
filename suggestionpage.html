@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    text-align:center;
+    background: linear-gradient(to right, #009688, #4caf50)
+  }
+  .button {
+    color: white;
+    padding: 80px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 45px;
+    font-family:fantasy;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:45%;
+  }
+
+</style>
+</head>
+<body>
+  <button class="button button2" style="background:#ff0036;">Cultural Events</button>
+  <button class="button button3" style="background:#02df0c;">Sports Event</button>
+  <button class="button button4" style="background:#fff221;">Music Events</button>
+  <button class="button button5" style="background:#21ff93;">Child Events</button><br>
+  <button onclick="goBack()">Go Back</button>
+  <script>
+function goBack()
+  {
+  window.history.back()
+  }
+</script>
+</body>
+</html>
