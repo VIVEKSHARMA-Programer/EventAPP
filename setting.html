@@ -18,6 +18,8 @@
         margin: 0;
         padding: 0;
         text-align: center;
+        background: linear-gradient(to right, #009688, #4caf50)
+
       }
       #description {
         font-family: Roboto;
@@ -174,6 +176,10 @@
           map.fitBounds(bounds);
         });
       }
+      function goBack()
+        {
+        window.history.back()
+        }
 
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4HlHGYcHXQYznn1zQVxjGF-wjE0SMVlQ&libraries=places&callback=initAutocomplete"
